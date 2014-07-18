@@ -16,7 +16,7 @@ class S3Writer(writers.Writer):
 
     @classmethod
     def CreateWriter(cls, location):
-        """Return an instance of this clas if it handles the location
+        """Return an instance of this class if it handles the location
 
         location must be a string with the format: s3://domain/bucket/
         (an optional folder inside the bucket can be used)
